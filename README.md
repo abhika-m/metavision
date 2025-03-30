@@ -9,3 +9,4 @@
 
 #### For Meta Glasses Integration
 Still in the works - working to integrate a way to transfer images from messenger through the code.
+```detection.py``` integrates instagram live video with detection code using meta developer tools.
