@@ -1,0 +1,19 @@
+{
+  "name": "meta-glasses-gpt-vision-api",
+  "module": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "dev": "bun run ./src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "face-api.js": "^0.22.2",
+    "ts-node": "^10.9.2"
+  }
+}

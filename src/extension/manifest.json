@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Messenger Image Observer",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.messenger.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.messenger.com/t/*"],
+      "js": ["observer.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
